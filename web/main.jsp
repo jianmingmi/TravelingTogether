@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>首页</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
 <div class="wrapper">
