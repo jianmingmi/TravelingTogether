@@ -25,13 +25,14 @@ html,body{
 }
 /*头部*/
 .logo{
-	width: 160px;
+	width: 170px;
     height:80px;
     background: url(../images/logo.png) no-repeat;
     position: absolute;
     top:20px;
     left:20px;
     overflow: hidden;
+    background-size: cover;
 }
 .desc{
 	font-size: 18px;
