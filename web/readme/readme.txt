@@ -6,3 +6,7 @@
 2.代码生成路径修改为 web/WEB-INF/classes
 
 3.readme/create.sql是创建核心数据库语句
+
+4.config.properties中有IS_JMM配置
+    true是jmm用户
+    false是桃子用户
