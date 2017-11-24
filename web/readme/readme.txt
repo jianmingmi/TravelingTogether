@@ -1,3 +1,5 @@
+注：想启动系统，请按以下步骤来
+
 1.common、resources、src为源代码
     common库存放基本代码
     resources是存放配置文件
