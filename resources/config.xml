@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!-- 数据库是否是网络。 -->
+    <isDbNet>true</isDbNet>
+
+    <!-- 是否显示sql。 -->
+    <isShowSql>true</isShowSql>
+
+    <!-- 是否是开发模式。 -->
+    <isDevMode>false</isDevMode>
+</root>
