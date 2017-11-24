@@ -194,7 +194,7 @@
     }
 %>
 
-<%--注册信息--%>
+<%--登陆信息--%>
 <%
     String loginMsg = (String) request.getAttribute("loginMsg");
     if(loginMsg != null && !loginMsg.equals("")){
