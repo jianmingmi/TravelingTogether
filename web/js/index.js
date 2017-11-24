@@ -40,13 +40,13 @@ $(function(){
 			$(this).parent().next("div").text("用户名不能为纯数字");
 			$(this).parent().next("div").css("color",'red');
 		}else{
-			for(var m=0;m<stuList.length;m++){
-				if($(this).val()==stuList[m].name){
-					$(this).parent().next("div").text("该用户名已被注册");
-					$(this).parent().next("div").css("color",'red');
-					return;
-				}				
-			}
+			// for(var m=0;m<stuList.length;m++){
+			// 	if($(this).val()==stuList[m].name){
+			// 		$(this).parent().next("div").text("该用户名已被注册");
+			// 		$(this).parent().next("div").css("color",'red');
+			// 		return;
+			// 	}
+			// }
 			$(this).parent().next("div").text("");
 		}		
 	})
@@ -132,10 +132,10 @@ $(function(){
 		if($("#xieyi")[0].checked){
 			//向变量stuList数组添加一个数值，数值内部格式Student(name,password,tel,id)
 			//发送用户信息
-			stuList.push(new Student($('input').eq(0).val(),$('input').eq(1).val(),$('input').eq(3).val(),stuList.length+1));
-            localStorage.setItem('stuList',JSON.stringify(stuList));
-            alert("注册成功");
-			window.open("userlist.html","_blank");
+			// stuList.push(new Student($('input').eq(0).val(),$('input').eq(1).val(),$('input').eq(3).val(),stuList.length+1));
+            // localStorage.setItem('stuList',JSON.stringify(stuList));
+            // alert("注册成功");
+			// window.open("userlist.html","_blank");
 		}else{						
 			$("#xieyi").next().next().next(".tips").text("请勾选协议");
 			$("#xieyi").next().next().next(".tips").css("color",'red');
@@ -145,13 +145,13 @@ $(function(){
 	})
 	
 //  建立构造函数，构造学生信息模板
-	function Student(name,password,tel,id){
-         this.name = name;
-         this.password = password;
-         this.tel = tel;
-         this.id = id;
-     }
-//	获取之前所有已经注册的用户集合
+// 	function Student(name,password,tel,id){
+//          this.name = name;
+//          this.password = password;
+//          this.tel = tel;
+//          this.id = id;
+//      }
+// 	获取之前所有已经注册的用户集合
 	function getStuList(){
 	    var list = localStorage.getItem('stuList');
 	    if(list != null){

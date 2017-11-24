@@ -1,6 +1,7 @@
 package widget.router;
 
 import com.jfinal.config.Routes;
+import product.index.IndexController;
 import product.test.control.TestController;
 import product.user.controller.UserController;
 
@@ -14,8 +15,8 @@ import product.user.controller.UserController;
 public class PageRouter extends Routes {
     @Override
     public void config() {
-//         //index页面
-//        this.add("/", IndexController.class);
+        //index页面
+        this.add("/", IndexController.class);
 
         // 测试页面
         this.add("/test", TestController.class);

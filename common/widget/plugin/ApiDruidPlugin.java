@@ -12,11 +12,12 @@ public class ApiDruidPlugin {
     public static DruidPlugin createDruidPlugin() {
 //        boolean b = ConfigUtil.getInstance().getBoolean("isDbNet");
 
-        return new DruidPlugin(
-                PropKit.get("DB_url"),
-                PropKit.get("DB_username"),
-                PropKit.get("DB_password")
-        );
+        boolean isJmm = PropKit.getBoolean("IS_JMM");
 
+        String url = PropKit.get("DB_URL");
+        String name = isJmm ? PropKit.get("DB_USERNAME_JMM") : PropKit.get("DB_USERNAME_TAOZI");
+        String password = isJmm ? PropKit.get("DB_PASSWORD_JMM") : PropKit.get("DB_PASSWORD_TAOZI");
+
+        return new DruidPlugin(url, name, password);
     }
 }

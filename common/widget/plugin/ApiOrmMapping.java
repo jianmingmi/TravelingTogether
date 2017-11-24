@@ -14,10 +14,6 @@ import product.user.model.User;
  */
 public class ApiOrmMapping {
     public static void addMapping(ActiveRecordPlugin arp) {
-
-        // 显示sql
-        arp.setShowSql(true);
-
         // 测试表
         arp.addMapping(Test.TABLE_NAME, Test.class);
         // 用户表
