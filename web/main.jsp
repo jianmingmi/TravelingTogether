@@ -34,7 +34,7 @@
                 </ul>
                 <ul class="items-minor">
                     <li>
-                        <a href="###" onclick="javascript:window.location.href='/wechat';">登录</a>
+                        <a href="###" onclick="javascript:window.location.href='/user/login';">登录</a>
                     </li>
                 </ul>
             </div>

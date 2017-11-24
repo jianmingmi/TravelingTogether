@@ -1,18 +1,31 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8" />
 		<title>注册</title>
-		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
-		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="<%=request.getContextPath()%>/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="<%=request.getContextPath()%>/js/index.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/index.css"/>
 	</head>
 	<body>
+
+		<%--注册信息--%>
+		<%
+			String resgiterMsg = (String) request.getAttribute("resgiterMsg");
+			if(resgiterMsg != null && !resgiterMsg.equals("")){
+				out.print("<script>");
+				out.print("alert('" + resgiterMsg + "');");
+				out.print("</script>");
+			}
+		%>
+
 		<header>
 			<a href="#" class="logo"></a>
 			<div class="desc">欢迎注册</div>
 		</header>
 		<section>
-			<form action="/user/add" method="post">
+			<form action="/user/doRegister" method="post">
 				<div class="register-box">
 					<label class="username_label">用 户 名
 					<input maxlength="20" name="username" type="text" placeholder="请输入您的用户名"/>
@@ -69,6 +82,5 @@
 				</div>
 			</form>
 		</section>
-		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

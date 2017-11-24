@@ -25,7 +25,7 @@ public class JfinalConfig extends JFinalConfig {
         // 设置读取配置文件
         PropKit.use("config.properties");
         // 开发模式
-//        constants.setDevMode(ConfigUtil.getInstance().getBoolean("isDevMode"));
+        constants.setDevMode(PropKit.getBoolean("IS_DEV"));
         // 字符编码
         constants.setEncoding("UTF-8");
     }
@@ -61,6 +61,8 @@ public class JfinalConfig extends JFinalConfig {
 
         // 配置ActiveRecord插件
         ActiveRecordPlugin arp = new ActiveRecordPlugin(druidPlugin);
+        // 是否显示sql
+        arp.setShowSql(PropKit.getBoolean("IS_SHOW_SQL"));
         // 添加orm映射
         ApiOrmMapping.addMapping(arp);
 

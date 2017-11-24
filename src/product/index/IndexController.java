@@ -10,6 +10,6 @@ import java.util.List;
  */
 public class IndexController extends BaseController {
     public void index(){
-        renderText("hello");
+        renderJsp("/main.jsp");
     }
 }

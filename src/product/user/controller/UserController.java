@@ -3,38 +3,78 @@ package product.user.controller;
 import base.BaseController;
 import product.user.model.User;
 
-import java.util.List;
-
 /**
  * Created by Administrator on 2017/11/12.
  */
 public class UserController extends BaseController {
-    public void register(){
-        render("/index.html");
+    /**
+     * 登录页面
+     */
+    public void login() {
+        renderJsp("/login.jsp");
     }
-    public void login(){
-        render("/login.html");
-    }
-    public void submit(){
-        String name = getPara("username");
-        String password = getPara("password");
 
-        List users = User.dao.find("SELECT * FROM user WHERE username = '"+name+"' AND password = '"+password+"'");
-        setAttr("users", users);
-        if(users.size() > 0){
-            System.out.println("登录成功");
-        }else{
-            System.out.println("登录失败");
+    /**
+     * 注册页面
+     */
+    public void register() {
+        renderJsp("/register.jsp");
+    }
+
+    /**
+     * 用户注册
+     */
+    public void doRegister() {
+        User user = getModel(User.class, "", true);
+
+        String userName = user.getStr("username");
+        User tempUser = User.dao.findFirst("select 1 from " + User.TABLE_NAME + " where username = '" + userName + "'");
+        /* 判断用户是否被注册 */
+        if (tempUser != null) {
+            setAttr("resgiterMsg", "用户已被注册");
+            register();
+            return;
         }
-        login();
+
+        /* 判断是否写入成功 */
+        if (user.save()) {
+            setAttr("resgiterMsg", "注册成功");
+            login();
+        } else {
+            setAttr("resgiterMsg", "注册失败");
+            register();
+        }
     }
-    public void add(){
-        User user = getModel(User.class, "user");
-        user.save();
 
-        System.out.println("注册成功");
-        login();
+    /**
+     * 用户登录
+     */
+    public void doLogin() {
+        User user = getModel(User.class, "", true);
+
+
+        String userName = user.getStr("username");
+        String password = user.getStr("password");
+        User tempUser = User.dao.findFirst("select * from " + User.TABLE_NAME + " where username = '" + userName + "'");
+        /* 判断是否有这个人 */
+        if (tempUser == null) {
+            setAttr("loginMsg", "无此人");
+            login();
+            return;
+        }
+
+        /* 判断密码是否正确 */
+        if (!tempUser.getStr("password").equals(password)) {
+            setAttr("loginMsg", "密码错误");
+            login();
+            return;
+        }
+
+        setAttr("loginMsg", "登录成功");
+        gotoMain();
     }
 
-
+    public void gotoMain() {
+        renderText("进入主页啦。。。。。。\n此处应该是主页!!!!!!!!!!");
+    }
 }
