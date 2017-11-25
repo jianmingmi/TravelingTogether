@@ -47,7 +47,7 @@ public class UserController extends BaseController {
     }
 
     /**
-     * 用户登录
+     * 用户登录(添加session)
      */
     public void doLogin() {
         User user = getModel(User.class, "", true);
@@ -70,11 +70,17 @@ public class UserController extends BaseController {
             return;
         }
 
-        setAttr("loginMsg", "登录成功");
-        gotoMain();
+        /* 存放loginSessionName */
+        getSession().setAttribute("loginSessionName",userName);
+        redirect("/");
     }
 
-    public void gotoMain() {
-        renderText("进入主页啦。。。。。。\n此处应该是主页!!!!!!!!!!");
+    /**
+     * 用户登出(去除session)
+     */
+    public void doLogout() {
+        /* 删除loginSessionName */
+        getSession().setAttribute("loginSessionName","");
+        redirect("/");
     }
 }

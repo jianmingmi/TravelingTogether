@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
+<%--longinSession--%>
+<%
+    String loginSessionName = (String) request.getSession().getAttribute("loginSessionName");
+%>
+
 <div class="wrapper">
     <header>
         <div class="top-info">
@@ -32,11 +38,33 @@
 
                     <li><a href="/new" onclick="javascript:window.location.href='/new';" >发布结伴</a></li>
                 </ul>
-                <ul class="items-minor">
+                <ul class="items-minor" id="logout_block">
+                    <li>
+                        欢迎  &nbsp;<%=loginSessionName%>
+                    </li>
+                    <li>
+                        <a href="###" onclick="javascript:window.location.href='/user/doLogout';">退出</a>
+                    </li>
+                </ul>
+                <ul class="items-minor" id="login_block">
                     <li>
                         <a href="###" onclick="javascript:window.location.href='/user/login';">登录</a>
                     </li>
                 </ul>
+                <%--做session处理--%>
+                <%
+                    if(loginSessionName == null || loginSessionName.equals("")){
+                        out.print("<script>\n");
+                        out.print("document.getElementById(\"logout_block\").style.display = \"none\";\n");
+                        out.print("document.getElementById(\"login_block\").style.display = \"block\";\n");
+                        out.print("</script>\n");
+                    } else {
+                        out.print("<script>\n");
+                        out.print("document.getElementById(\"logout_block\").style.display = \"block\";\n");
+                        out.print("document.getElementById(\"login_block\").style.display = \"none\";\n");
+                        out.print("</script>\n");
+                    }
+                %>
             </div>
         </nav>
     </header>
@@ -1039,5 +1067,6 @@
     </footer>
 </div>
 <!-- content wrapper end -->
+
 </body>
 </html>
