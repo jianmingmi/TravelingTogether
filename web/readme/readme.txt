@@ -1,14 +1,18 @@
-注：想启动系统，请按以下步骤来
+TravelingTogether系统启动教程
 
-1.common、resources、src为源代码
+1.common、resources、src设为源码包（在模块设置中）
     common库存放基本代码
     resources是存放配置文件
     src存放功能产品以及启动文件
 
-2.代码生成路径修改为 web/WEB-INF/classes
+2.源码编译路径修改为
+    xxx/TravelingTogether/web/WEB-INF/classes（classes文件夹没有需要手动创建）
 
-3.readme/create.sql是创建核心数据库语句
+3.创建中心数据库，创建sql位于
+    xxx/TravelingTogether/web/readme/create.sql
 
-4.config.properties中有IS_JMM配置
-    true是jmm用户
-    false是桃子用户
+4.配置参数文件，文件路径位于
+    xxx/TravelingTogether/config.properties
+        IS_JMM选项为用户选项
+            true是jmm用户
+            false是桃子用户
