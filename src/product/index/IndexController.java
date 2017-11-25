@@ -7,6 +7,6 @@ import base.BaseController;
  */
 public class IndexController extends BaseController {
     public void index() {
-        renderJsp("/main.jsp");
+        renderJsp("/jsp/index/main.jsp");
     }
 }
