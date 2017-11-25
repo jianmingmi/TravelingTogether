@@ -11,14 +11,14 @@ public class UserController extends BaseController {
      * 登录页面
      */
     public void login() {
-        renderJsp("/login.jsp");
+        renderJsp("/jsp/index/login.jsp");
     }
 
     /**
      * 注册页面
      */
     public void register() {
-        renderJsp("/register.jsp");
+        renderJsp("/jsp/index/register.jsp");
     }
 
     /**

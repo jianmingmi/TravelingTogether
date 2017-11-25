@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>首页</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
 </head>
 <body>
 
@@ -34,7 +34,7 @@
         <nav class="nav nav-store">
             <div class="inner">
                 <ul class="items">
-                    <li><a href="/" onclick="javascript:window.location.href='/';"  class="on">首页</a></li>
+                    <li><a href="/" onclick="javascript:window.location.href='/';" class="on">首页</a></li>
 
                     <li><a href="/new" onclick="javascript:window.location.href='/new';" >发布结伴</a></li>
                 </ul>
