@@ -16,21 +16,6 @@ CREATE DATABASE /*!32312 IF NOT EXISTS*/`traveling` /*!40100 DEFAULT CHARACTER S
 
 USE `traveling`;
 
-/*Table structure for table `test` */
-
-DROP TABLE IF EXISTS `test`;
-
-CREATE TABLE `test` (
-  `id` int(11) NOT NULL auto_increment,
-  `name` varchar(255) default NULL,
-  `password` varchar(255) default NULL,
-  PRIMARY KEY  (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-/*Data for the table `test` */
-
-insert  into `test`(`id`,`name`,`password`) values (1,'ss','111'),(2,'ww','ww'),(4,'www','eee');
-
 /*Table structure for table `user` */
 
 DROP TABLE IF EXISTS `user`;
@@ -45,7 +30,7 @@ CREATE TABLE `user` (
 
 /*Data for the table `user` */
 
-insert  into `user`(`id`,`username`,`password`,`phone`) values (1,'admin','111111','18351951628'),(2,'wwwwww','wwwwww','15951723371'),(3,'eeeeee','eeeeee','15951723371'),(4,'rrrrrr','rrrrrr','15951723371');
+insert  into `user`(`id`,`username`,`password`,`phone`) values (1,'admin','111111','18351951628'),(2,'a','a','15951723371');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
