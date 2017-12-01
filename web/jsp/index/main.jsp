@@ -502,8 +502,19 @@
 
 <div style="background: #f4f4f4;padding: 20px 0;width: 1440px;height: 668px;">
     <div class="box-father">
+<div class="box">
 
+</div>
+        <div class="box">
+
+        </div>
     </div>
+</div>
+
+<div class="bg-white" style="background: #fff;width: 1400px;height: 690px;">
+<div class="theme main">
+<h2 style="padding-left: 10px;">小团慢旅行</h2>
+</div>
 </div>
 <%--<div class="container" id="main">--%>
 <%--<div class="main mod">--%>
