@@ -1,8 +1,6 @@
 package widget.plugin;
 
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
-import config.ConfigUtil;
-import product.test.model.Test;
 import product.user.model.User;
 
 /**
@@ -14,8 +12,6 @@ import product.user.model.User;
  */
 public class ApiOrmMapping {
     public static void addMapping(ActiveRecordPlugin arp) {
-        // 测试表
-        arp.addMapping(Test.TABLE_NAME, Test.class);
         // 用户表
         arp.addMapping(User.TABLE_NAME, User.class);
     }

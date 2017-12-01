@@ -14,7 +14,7 @@ public class ApiDruidPlugin {
 
         boolean isJmm = PropKit.getBoolean("IS_JMM");
 
-        String url = PropKit.get("DB_URL");
+        String url = isJmm ? PropKit.get("DB_URL_JMM") : PropKit.get("DB_URL_TAOZI");
         String name = isJmm ? PropKit.get("DB_USERNAME_JMM") : PropKit.get("DB_USERNAME_TAOZI");
         String password = isJmm ? PropKit.get("DB_PASSWORD_JMM") : PropKit.get("DB_PASSWORD_TAOZI");
 
