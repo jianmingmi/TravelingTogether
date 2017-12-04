@@ -8,7 +8,7 @@ import com.jfinal.core.JFinal;
 public class Start {
     // main启动
     public static void main(String[] args) {
-        JFinal.start("web", 8888, "/");
+        JFinal.start("web", 8090, "/");
     }
 
 }
