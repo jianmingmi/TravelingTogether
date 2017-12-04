@@ -8,6 +8,7 @@
     width:156px;
     height:30px;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 a {
@@ -138,7 +139,7 @@ footer {
 }
 
 #newnav {
-    left: 7.2%;
+    left: 14.2%;
     position: absolute;
     width: 240px;
     top: 2px;
@@ -156,6 +157,9 @@ footer {
 .newnav-tit {
     height: 100px;
 }
+/*.newnav-tit:hover{*/
+    /*background: #fff;*/
+/*}*/
 .newnav-tit:first-child{
     border-top: 1px solid #0000;
 }
@@ -182,6 +186,9 @@ footer {
     color: #acacac;
     margin-bottom: 7px;
     padding: 0px 1px;
+}
+.sm:hover{
+    color: #ff7200;
 }
 
 .icon {

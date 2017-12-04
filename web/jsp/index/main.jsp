@@ -14,6 +14,7 @@
     <%--=======--%>
     <link rel="stylesheet" href="../../css/main.css">
     <script src="/js/jquery.js"></script>
+    <script src="/js/lunbo.js"></script>
     <%-->>>>>>> 871c573172f07c89e7f0a16bae3b5d53590f9f67:web/jsp/index/main.jsp--%>
 </head>
 <body>
@@ -118,6 +119,149 @@
                             </div>
                             <i class="icon"><img src="/images/you.png" alt=""></i>
                         </div>
+                        <div class="newnav-right">
+                            <div class="newnav-centent">
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">新疆</a>
+                                        <a class="name" href="">喀纳斯</a>
+                                        <a class="name" href="">禾木</a>
+                                        <a class="name" href="">赛里木湖</a>
+                                        <a class="name" href="">九曲十八弯</a>
+                                        <a class="name" href="">乌尔禾魔鬼城</a>
+                                        <a class="name" href="">五彩滩</a>
+                                        <a class="name" href="">巴音布鲁克</a>
+                                        <a class="name" href="">红山大峡谷</a>
+                                        <a class="name" href="">人体山</a>
+                                        <a class="name" href="">江布拉克</a>
+                                        <a class="name" href="">轮台</a>
+                                        <a class="name" href="">塔克拉玛干沙漠</a>
+                                        <a class="name" href="">喀什</a>
+                                        <a class="name" href="">和田</a>
+                                        <a class="name" href="">慕士塔格</a>
+                                        <a class="name" href="">那拉提草原</a>
+                                    </div>
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">西北</a>
+                                        <a class="name" href="">青海湖</a>
+                                        <a class="name" href="">茶卡盐湖</a>
+                                        <a class="name" href="">门源</a>
+                                        <a class="name" href="">卓尔山</a>
+                                        <a class="name" href="">拉卜楞寺</a>
+                                        <a class="name" href="">郎木寺</a>
+                                        <a class="name" href="">张掖</a>
+                                        <a class="name" href="">敦煌</a>
+                                        <a class="name" href="">莫高窟</a>
+                                        <a class="name" href="">雅丹魔鬼城</a>
+                                        <a class="name" href="">嘉峪关</a>
+                                        <a class="name" href="">花湖</a>
+                                        <a class="name" href="">年保玉则</a>
+                                        <a class="name" href="">鸣沙山</a>
+                                        <a class="name" href="">马蹄寺</a>
+                                        <a class="name" href="">大柴旦</a>
+                                        <a class="name" href="">若尔盖草原</a>
+                                        <a class="name" href="">水上雅丹</a>
+                                        <a class="name" href="">塔尔寺</a>
+                                        <a class="name" href="">九曲黄河第一弯</a>
+                                        <a class="name" href="">壶口瀑布</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">额济纳</a>
+                                        <a class="name" href="">胡杨林</a>
+                                        <a class="name" href="">黑水城</a>
+                                        <a class="name" href="">居延海</a>
+                                        <a class="name" href="">金塔胡杨林</a>
+                                        <a class="name" href="">额济纳胡杨林</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">西藏</a>
+                                        <a class="name" href="">雅鲁藏布江大峡谷</a>
+                                        <a class="name" href="">纳木错</a>
+                                        <a class="name" href="">扎实伦布寺</a>
+                                        <a class="name" href="">鲁朗林海</a>
+                                        <a class="name" href="">日喀则</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">内蒙古</a>
+                                        <a class="name" href="">乌兰布统</a>
+                                        <a class="name" href="">呼伦贝尔</a>
+                                        <a class="name" href="">坝上</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">广西</a>
+                                        <a class="name" href="">桂林</a>
+                                        <a class="name" href="">漓江</a>
+                                        <a class="name" href="">德天大瀑布</a>
+                                        <a class="name" href="">北海</a>
+                                        <a class="name" href="">涠洲岛</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">四川</a>
+                                        <a class="name" href="">甲居藏寨</a>
+                                        <a class="name" href="">稻城亚丁</a>
+                                        <a class="name" href="">理塘</a>
+                                        <a class="name" href="">海螺沟</a>
+                                        <a class="name" href="">九寨沟</a>
+                                        <a class="name" href="">色达</a>
+                                        <a class="name" href="">五明佛学院</a>
+                                        <a class="name" href="">丹巴</a>
+                                        <a class="name" href="">黄龙</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">云贵</a>
+                                        <a class="name" href="">黄果树</a>
+                                        <a class="name" href="">镇远</a>
+                                        <a class="name" href="">荔波</a>
+                                        <a class="name" href="">西江苗寨</a>
+                                        <a class="name" href="">万峰林</a>
+                                        <a class="name" href="">马岭河大峡谷</a>
+                                        <a class="name" href="">普者黑</a>
+                                        <a class="name" href="">坝美</a>
+                                        <a class="name" href="">丽江古城</a>
+                                        <a class="name" href="">洱海</a>
+                                        <a class="name" href="">大理</a>
+                                        <a class="name" href="">泸沽湖</a>
+                                        <a class="name" href="">虎跳峡</a>
+                                        <a class="name" href="">双廊</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">出境</a>
+                                        <a class="name" href="">斯里兰卡</a>
+                                        <a class="name" href="">仙本那</a>
+                                        <a class="name" href="">柬埔寨</a>
+                                        <a class="name" href="">尼泊尔</a>
+                                        <a class="name" href="">巴厘岛</a>
+                                        <a class="name" href="">沙巴</a>
+                                        <a class="name" href="">欧洲</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                     <div class="newnav-tit">
                         <div class="newnav-position">
@@ -133,6 +277,97 @@
                             </div>
                             <i class="icon"><img src="/images/you.png" alt=""></i>
                         </div>
+                        <div class="newnav-right">
+                            <div class="newnav-centent">
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">新疆</a>
+                                        <a class="name" href="">喀纳斯</a>
+                                        <a class="name" href="">禾木</a>
+                                        <a class="name" href="">赛里木湖</a>
+                                        <a class="name" href="">九曲十八弯</a>
+                                        <a class="name" href="">乌尔禾魔鬼城</a>
+                                        <a class="name" href="">五彩滩</a>
+                                        <a class="name" href="">巴音布鲁克</a>
+                                        <a class="name" href="">红山大峡谷</a>
+                                        <a class="name" href="">人体山</a>
+                                        <a class="name" href="">江布拉克</a>
+                                        <a class="name" href="">轮台</a>
+                                        <a class="name" href="">塔克拉玛干沙漠</a>
+                                        <a class="name" href="">喀什</a>
+                                        <a class="name" href="">和田</a>
+                                        <a class="name" href="">慕士塔格</a>
+                                        <a class="name" href="">那拉提草原</a>
+                                    </div>
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">青海</a>
+                                        <a class="name" href="">青海湖</a>
+                                        <a class="name" href="">茶卡盐湖</a>
+                                        <a class="name" href="">卓尔山</a>
+                                        <a class="name" href="">大柴旦</a>
+                                        <a class="name" href="">塔尔寺</a>
+                                        <a class="name" href="">冰沟林海</a>
+                                        <a class="name" href="">沙岛</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">额济纳</a>
+                                        <a class="name" href="">胡杨林</a>
+                                        <a class="name" href="">黑水城</a>
+                                        <a class="name" href="">居延海</a>
+                                        <a class="name" href="">金塔胡杨林</a>
+                                        <a class="name" href="">额济纳胡杨林</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">西藏</a>
+                                        <a class="name" href="">雅鲁藏布江大峡谷</a>
+                                        <a class="name" href="">纳木错</a>
+                                        <a class="name" href="">扎实伦布寺</a>
+                                        <a class="name" href="">鲁朗林海</a>
+                                        <a class="name" href="">日喀则</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">内蒙古</a>
+                                        <a class="name" href="">乌兰布统</a>
+                                        <a class="name" href="">呼伦贝尔</a>
+                                        <a class="name" href="">坝上</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">甘肃</a>
+                                        <a class="name" href="">张掖</a>
+                                        <a class="name" href="">敦煌</a>
+                                        <a class="name" href="">嘉峪关</a>
+                                        <a class="name" href="">莫高窟</a>
+                                        <a class="name" href="">马蹄寺</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">贵州</a>
+                                        <a class="name" href="">黄果树</a>
+                                        <a class="name" href="">镇远</a>
+                                        <a class="name" href="">荔波</a>
+                                        <a class="name" href="">西江苗寨</a>
+                                        <a class="name" href="">双廊</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="newnav-tit">
                         <div class="newnav-position">
@@ -146,6 +381,61 @@
                             </div>
                             <i class="icon"><img src="/images/you.png" alt=""></i>
                         </div>
+                        <div class="newnav-right">
+                            <div class="newnav-centent">
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">新疆</a>
+                                        <a class="name" href="">喀纳斯</a>
+                                        <a class="name" href="">禾木</a>
+                                        <a class="name" href="">赛里木湖</a>
+                                        <a class="name" href="">九曲十八弯</a>
+                                        <a class="name" href="">乌尔禾魔鬼城</a>
+                                        <a class="name" href="">和田</a>
+                                        <a class="name" href="">慕士塔格</a>
+                                        <a class="name" href="">那拉提草原</a>
+                                    </div>
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">甘南</a>
+                                        <a class="name" href="">花湖</a>
+                                        <a class="name" href="">九曲黄河第一弯</a>
+                                        <a class="name" href="">郎木寺</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">青海</a>
+                                        <a class="name" href="">青海湖</a>
+                                        <a class="name" href="">茶卡盐湖</a>
+                                        <a class="name" href="">门源</a>
+                                        <a class="name" href="">卓尔山</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">额济纳</a>
+                                        <a class="name" href="">胡杨林</a>
+                                        <a class="name" href="">黑水城</a>
+                                        <a class="name" href="">居延海</a>
+                                        <a class="name" href="">金塔胡杨林</a>
+                                        <a class="name" href="">额济纳胡杨林</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">内蒙古</a>
+                                        <a class="name" href="">乌兰布统</a>
+                                        <a class="name" href="">坝上</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="newnav-tit">
                         <div class="newnav-position">
@@ -158,6 +448,57 @@
                                 <a class="sm" href="">四川</a>
                             </div>
                             <i class="icon"><img src="/images/you.png" alt=""></i>
+                        </div>
+                        <div class="newnav-right">
+                            <div class="newnav-centent">
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">四川</a>
+                                        <a class="name" href="">稻城亚丁</a>
+                                        <a class="name" href="">理塘</a>
+                                        <a class="name" href="">海螺沟</a>
+                                        <a class="name" href="">甲居藏寨</a>
+                                    </div>
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">云南</a>
+                                        <a class="name" href="">普者黑</a>
+                                        <a class="name" href="">丽江古城</a>
+                                        <a class="name" href="">洱海</a>
+                                        <a class="name" href="">坝美</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">贵州</a>
+                                        <a class="name" href="">黄果树</a>
+                                        <a class="name" href="">万峰林</a>
+                                        <a class="name" href="">西江苗寨</a>
+                                        <a class="name" href="">马岭河大峡谷</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">西藏</a>
+                                        <a class="name" href="">珠峰大本营</a>
+                                        <a class="name" href="">纳木错</a>
+                                        <a class="name" href="">日喀则</a>
+                                        <a class="name" href="">扎什伦布寺</a>
+                                        <a class="name" href="">索松村</a>
+                                    </div>
+
+                                </div>
+                                <div class="newnav-item">
+                                    <div>
+                                        <a class="reg" href="">内蒙古</a>
+                                        <a class="name" href="">呼伦贝尔</a>
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="newnav-tit">
@@ -173,340 +514,6 @@
                             <i class="icon"><img src="/images/you.png" alt=""></i>
                         </div>
                     </div>
-                    </div>
-                <div class="newnav-right">
-                    <div class="newnav-centent">
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">新疆</a>
-                                <a class="name" href="">喀纳斯</a>
-                                <a class="name" href="">禾木</a>
-                                <a class="name" href="">赛里木湖</a>
-                                <a class="name" href="">九曲十八弯</a>
-                                <a class="name" href="">乌尔禾魔鬼城</a>
-                                <a class="name" href="">五彩滩</a>
-                                <a class="name" href="">巴音布鲁克</a>
-                                <a class="name" href="">红山大峡谷</a>
-                                <a class="name" href="">人体山</a>
-                                <a class="name" href="">江布拉克</a>
-                                <a class="name" href="">轮台</a>
-                                <a class="name" href="">塔克拉玛干沙漠</a>
-                                <a class="name" href="">喀什</a>
-                                <a class="name" href="">和田</a>
-                                <a class="name" href="">慕士塔格</a>
-                                <a class="name" href="">那拉提草原</a>
-                            </div>
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">西北</a>
-                                <a class="name" href="">青海湖</a>
-                                <a class="name" href="">茶卡盐湖</a>
-                                <a class="name" href="">门源</a>
-                                <a class="name" href="">卓尔山</a>
-                                <a class="name" href="">拉卜楞寺</a>
-                                <a class="name" href="">郎木寺</a>
-                                <a class="name" href="">张掖</a>
-                                <a class="name" href="">敦煌</a>
-                                <a class="name" href="">莫高窟</a>
-                                <a class="name" href="">雅丹魔鬼城</a>
-                                <a class="name" href="">嘉峪关</a>
-                                <a class="name" href="">花湖</a>
-                                <a class="name" href="">年保玉则</a>
-                                <a class="name" href="">鸣沙山</a>
-                                <a class="name" href="">马蹄寺</a>
-                                <a class="name" href="">大柴旦</a>
-                                <a class="name" href="">若尔盖草原</a>
-                                <a class="name" href="">水上雅丹</a>
-                                <a class="name" href="">塔尔寺</a>
-                                <a class="name" href="">九曲黄河第一弯</a>
-                                <a class="name" href="">壶口瀑布</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">额济纳</a>
-                                <a class="name" href="">胡杨林</a>
-                                <a class="name" href="">黑水城</a>
-                                <a class="name" href="">居延海</a>
-                                <a class="name" href="">金塔胡杨林</a>
-                                <a class="name" href="">额济纳胡杨林</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">西藏</a>
-                                <a class="name" href="">雅鲁藏布江大峡谷</a>
-                                <a class="name" href="">纳木错</a>
-                                <a class="name" href="">扎实伦布寺</a>
-                                <a class="name" href="">鲁朗林海</a>
-                                <a class="name" href="">日喀则</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">内蒙古</a>
-                                <a class="name" href="">乌兰布统</a>
-                                <a class="name" href="">呼伦贝尔</a>
-                                <a class="name" href="">坝上</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">广西</a>
-                                <a class="name" href="">桂林</a>
-                                <a class="name" href="">漓江</a>
-                                <a class="name" href="">德天大瀑布</a>
-                                <a class="name" href="">北海</a>
-                                <a class="name" href="">涠洲岛</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">四川</a>
-                                <a class="name" href="">甲居藏寨</a>
-                                <a class="name" href="">稻城亚丁</a>
-                                <a class="name" href="">理塘</a>
-                                <a class="name" href="">海螺沟</a>
-                                <a class="name" href="">九寨沟</a>
-                                <a class="name" href="">色达</a>
-                                <a class="name" href="">五明佛学院</a>
-                                <a class="name" href="">丹巴</a>
-                                <a class="name" href="">黄龙</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">云贵</a>
-                                <a class="name" href="">黄果树</a>
-                                <a class="name" href="">镇远</a>
-                                <a class="name" href="">荔波</a>
-                                <a class="name" href="">西江苗寨</a>
-                                <a class="name" href="">万峰林</a>
-                                <a class="name" href="">马岭河大峡谷</a>
-                                <a class="name" href="">普者黑</a>
-                                <a class="name" href="">坝美</a>
-                                <a class="name" href="">丽江古城</a>
-                                <a class="name" href="">洱海</a>
-                                <a class="name" href="">大理</a>
-                                <a class="name" href="">泸沽湖</a>
-                                <a class="name" href="">虎跳峡</a>
-                                <a class="name" href="">双廊</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">出境</a>
-                                <a class="name" href="">斯里兰卡</a>
-                                <a class="name" href="">仙本那</a>
-                                <a class="name" href="">柬埔寨</a>
-                                <a class="name" href="">尼泊尔</a>
-                                <a class="name" href="">巴厘岛</a>
-                                <a class="name" href="">沙巴</a>
-                                <a class="name" href="">欧洲</a>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="newnav-centent">
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">新疆</a>
-                                <a class="name" href="">喀纳斯</a>
-                                <a class="name" href="">禾木</a>
-                                <a class="name" href="">赛里木湖</a>
-                                <a class="name" href="">九曲十八弯</a>
-                                <a class="name" href="">乌尔禾魔鬼城</a>
-                                <a class="name" href="">五彩滩</a>
-                                <a class="name" href="">巴音布鲁克</a>
-                                <a class="name" href="">红山大峡谷</a>
-                                <a class="name" href="">人体山</a>
-                                <a class="name" href="">江布拉克</a>
-                                <a class="name" href="">轮台</a>
-                                <a class="name" href="">塔克拉玛干沙漠</a>
-                                <a class="name" href="">喀什</a>
-                                <a class="name" href="">和田</a>
-                                <a class="name" href="">慕士塔格</a>
-                                <a class="name" href="">那拉提草原</a>
-                            </div>
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">青海</a>
-                                <a class="name" href="">青海湖</a>
-                                <a class="name" href="">茶卡盐湖</a>
-                                <a class="name" href="">卓尔山</a>
-                                <a class="name" href="">大柴旦</a>
-                                <a class="name" href="">塔尔寺</a>
-                                <a class="name" href="">冰沟林海</a>
-                                <a class="name" href="">沙岛</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">额济纳</a>
-                                <a class="name" href="">胡杨林</a>
-                                <a class="name" href="">黑水城</a>
-                                <a class="name" href="">居延海</a>
-                                <a class="name" href="">金塔胡杨林</a>
-                                <a class="name" href="">额济纳胡杨林</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">西藏</a>
-                                <a class="name" href="">雅鲁藏布江大峡谷</a>
-                                <a class="name" href="">纳木错</a>
-                                <a class="name" href="">扎实伦布寺</a>
-                                <a class="name" href="">鲁朗林海</a>
-                                <a class="name" href="">日喀则</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">内蒙古</a>
-                                <a class="name" href="">乌兰布统</a>
-                                <a class="name" href="">呼伦贝尔</a>
-                                <a class="name" href="">坝上</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">甘肃</a>
-                                <a class="name" href="">张掖</a>
-                                <a class="name" href="">敦煌</a>
-                                <a class="name" href="">嘉峪关</a>
-                                <a class="name" href="">莫高窟</a>
-                                <a class="name" href="">马蹄寺</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">贵州</a>
-                                <a class="name" href="">黄果树</a>
-                                <a class="name" href="">镇远</a>
-                                <a class="name" href="">荔波</a>
-                                <a class="name" href="">西江苗寨</a>
-                                <a class="name" href="">双廊</a>
-                            </div>
-
-                        </div>
-                        </div>
-                    <div class="newnav-centent">
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">新疆</a>
-                                <a class="name" href="">喀纳斯</a>
-                                <a class="name" href="">禾木</a>
-                                <a class="name" href="">赛里木湖</a>
-                                <a class="name" href="">九曲十八弯</a>
-                                <a class="name" href="">乌尔禾魔鬼城</a>
-                                <a class="name" href="">和田</a>
-                                <a class="name" href="">慕士塔格</a>
-                                <a class="name" href="">那拉提草原</a>
-                            </div>
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">甘南</a>
-                                <a class="name" href="">花湖</a>
-                                <a class="name" href="">九曲黄河第一弯</a>
-                                <a class="name" href="">郎木寺</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">青海</a>
-                                <a class="name" href="">青海湖</a>
-                                <a class="name" href="">茶卡盐湖</a>
-                                <a class="name" href="">门源</a>
-                                <a class="name" href="">卓尔山</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">额济纳</a>
-                                <a class="name" href="">胡杨林</a>
-                                <a class="name" href="">黑水城</a>
-                                <a class="name" href="">居延海</a>
-                                <a class="name" href="">金塔胡杨林</a>
-                                <a class="name" href="">额济纳胡杨林</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">内蒙古</a>
-                                <a class="name" href="">乌兰布统</a>
-                                <a class="name" href="">坝上</a>
-                            </div>
-
-                        </div>
-                        </div>
-                    <div class="newnav-centent">
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">四川</a>
-                                <a class="name" href="">稻城亚丁</a>
-                                <a class="name" href="">理塘</a>
-                                <a class="name" href="">海螺沟</a>
-                                <a class="name" href="">甲居藏寨</a>
-                            </div>
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">云南</a>
-                                <a class="name" href="">普者黑</a>
-                                <a class="name" href="">丽江古城</a>
-                                <a class="name" href="">洱海</a>
-                                <a class="name" href="">坝美</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">贵州</a>
-                                <a class="name" href="">黄果树</a>
-                                <a class="name" href="">万峰林</a>
-                                <a class="name" href="">西江苗寨</a>
-                                <a class="name" href="">马岭河大峡谷</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">西藏</a>
-                                <a class="name" href="">珠峰大本营</a>
-                                <a class="name" href="">纳木错</a>
-                                <a class="name" href="">日喀则</a>
-                                <a class="name" href="">扎什伦布寺</a>
-                                <a class="name" href="">索松村</a>
-                            </div>
-
-                        </div>
-                        <div class="newnav-item">
-                            <div>
-                                <a class="reg" href="">内蒙古</a>
-                                <a class="name" href="">呼伦贝尔</a>
-                            </div>
-
-                        </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -1592,97 +1599,16 @@
 
 </body>
 <script>
-    $(function(){
-
-        var i=0;
-        var timer=null;
-        for (var j = 0; j < $('.img li').length; j++) {   //创建圆点
-            $('.num').append('<li></li>')
-        }
-        $('.num li').first().addClass('active');  //给第一个圆点添加样式
-
-        var firstimg=$('.img li').first().clone(); //复制第一张图片
-        $('.img').append(firstimg).width($('.img li').length*($('.img img').width()));  //将第一张图片放到最后一张图片后，设置ul的宽度为图片张数*图片宽度
-
-
-        // 下一个按钮
-        $('.next').click(function(){
-            i++;
-            if (i==$('.img li').length) {
-                i=1; //这里不是i=0
-                $('.img').css({left:0});  //保证无缝轮播，设置left值
-            };
-
-            $('.img').stop().animate({left:-i*1920},500);
-            if (i==$('.img li').length-1) {     //设置小圆点指示
-                $('.num li').eq(0).addClass('active').siblings().removeClass('active');
-            }else{
-                $('.num li').eq(i).addClass('active').siblings().removeClass('active');
-            }
-
-        })
-
-        // 上一个按钮
-        $('.prev').click(function(){
-            i--;
-            if (i==-1) {
-                i=$('.img li').length-2;
-                $('.img').css({left:-($('.img li').length-1)*1920});
-            }
-            $('.img').stop().animate({left:-i*1920},500);
-            $('.num li').eq(i).addClass('active').siblings().removeClass('active');
-        })
-
-        //设置按钮的显示和隐藏
-        $('.banner').hover(function(){
-            $('.btn').show();
-        },function(){
-            $('.btn').hide();
-        })
-
-        //鼠标划入圆点
-        $('.num li').mouseover(function(){
-            var _index=$(this).index();
-            $('.img').stop().animate({left:-_index*1920},500);
-            $('.num li').eq(_index).addClass('active').siblings().removeClass('active');
-        })
-
-        //定时器自动播放
-        timer=setInterval(function(){
-            i++;
-            if (i==$('.img li').length) {
-                i=1;
-                $('.img').css({left:0});
-            };
-
-            $('.img').stop().animate({left:-i*1920},500);
-            if (i==$('.img li').length-1) {
-                $('.num li').eq(0).addClass('active').siblings().removeClass('active');
-            }else{
-                $('.num li').eq(i).addClass('active').siblings().removeClass('active');
-            }
-        },4000)
-
-        //鼠标移入，暂停自动播放，移出，开始自动播放
-        $('.banner').hover(function(){
-            clearInterval(timer);
-        },function(){
-            timer=setInterval(function(){
-                i++;
-                if (i==$('.img li').length) {
-                    i=1;
-                    $('.img').css({left:0});
-                };
-
-                $('.img').stop().animate({left:-i*1920},500);
-                if (i==$('.img li').length-1) {
-                    $('.num li').eq(0).addClass('active').siblings().removeClass('active');
-                }else{
-                    $('.num li').eq(i).addClass('active').siblings().removeClass('active');
-                }
-            },4000)
-        })
-
-    })
+    $('.newnav-tit').mouseenter(function () {
+        $(this).find('h2').css({'color':'#ff7200'});
+        $(this).css({'background':'#fff'});
+        $('.newnav-tit').not($(this)).css({'background':'rgba(0, 0, 0, 0.5)'});
+        $(this).find('.newnav-right').show();
+    });
+    $('.newnav-tit').mouseleave(function () {
+        $(this).css({'background':'rgba(0, 0, 0, 0.5)'});
+        $(this).find('h2').css({'color':'#fff'});
+        $(this).find('.newnav-right').hide();
+    });
 </script>
 </html>
