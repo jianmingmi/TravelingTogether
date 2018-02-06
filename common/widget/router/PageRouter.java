@@ -1,7 +1,9 @@
 package widget.router;
 
 import com.jfinal.config.Routes;
+import com.jfinal.core.Controller;
 import product.index.IndexController;
+import product.jieban.controller.jiebanController;
 import product.user.controller.UserController;
 
 /**
@@ -19,5 +21,8 @@ public class PageRouter extends Routes {
 
         // 测试页面
         this.add("/user", UserController.class);
+
+        //发布结伴
+        this.add("/jieban", jiebanController.class);
     }
 }
