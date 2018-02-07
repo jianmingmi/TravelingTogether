@@ -23,7 +23,6 @@
 <%
     String loginSessionName = (String) request.getSession().getAttribute("loginSessionName");
 %>
-<iframe id="menu">
 <header>
     <div class="nav01">
         <div class="nav-top">
@@ -94,8 +93,6 @@
     </script>
 
 </header>
-</iframe>
-<iframe id="content">
 <div class="container" id="main">
 <div class="main mod">
 <div class="mod">
@@ -1137,7 +1134,6 @@ title="首都航空" target="_blank">首都航空</a>
 </div>
 </div>
 </div>
-</iframe>
 <!-- content wrapper end -->
 
 </body>
